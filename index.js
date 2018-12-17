@@ -6,5 +6,5 @@ function destructivelyAppendDriver() {
 }
 
 function descructivelyPrependDriver() {
-  drivers.shift ("Bob");
+  drivers.unshift ("Bob");
 }
