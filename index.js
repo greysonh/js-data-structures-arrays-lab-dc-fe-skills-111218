@@ -9,4 +9,6 @@ function destructivelyPrependDriver() {
   drivers.unshift("Bob");
 }
 
-function 
+function destructivelyRemoveLastDriver() {
+  drivers.pop();
+}
