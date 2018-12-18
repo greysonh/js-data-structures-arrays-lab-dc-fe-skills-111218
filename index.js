@@ -26,5 +26,8 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-return [...drivers].pop()
+  list = [...drivers];
+  list.pop();
+  return list;
+  
 }
