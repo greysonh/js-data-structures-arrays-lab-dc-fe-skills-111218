@@ -29,5 +29,10 @@ function removeLastDriver() {
   list = [...drivers];
   list.pop();
   return list;
-  
+}
+
+function removeFirstDriver() {
+  list = [...drivers];
+  list.unshift();
+  return list;
 }
