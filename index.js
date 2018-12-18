@@ -9,8 +9,8 @@ function destructivelyPrependDriver(name) {
  return drivers.unshift(name);
 }
 
-function destructivelyRemoveLastDriver(list) {
-  return list.pop();
+function destructivelyRemoveLastDriver() {
+  return drivers.pop();
 }
 
 function destructivelyRemoveFirstDriver() {
@@ -25,7 +25,6 @@ function prependDriver(name) {
   return [name, ...drivers];
 }
 
-function removeLastDriver(list) {
-list.pop();
-return list;
+function removeLastDriver() {
+return [...drivers].pop()
 }
