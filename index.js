@@ -33,6 +33,6 @@ function removeLastDriver() {
 
 function removeFirstDriver() {
   list = [...drivers];
-  list.unshift();
+  list.shift();
   return list;
 }
